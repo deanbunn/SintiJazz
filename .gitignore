@@ -1,0 +1,18 @@
+# Django specific
+*.log
+staticfiles/
+media/
+
+# Database files
+*.sqlite3
+
+# Secrets and environment variables
+.env
+config/settings/local.py
+config/settings/*.local.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
