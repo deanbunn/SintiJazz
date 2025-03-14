@@ -9,7 +9,13 @@
     </head>
     <body>
 
-            <p>Hello there, {{ data.name }}</p>
+            {% if foods %}
+                <ul>
+                    {% for food in foods %}
+                        <li>{{ food }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
 
     </body>
 

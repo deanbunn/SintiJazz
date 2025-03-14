@@ -4,7 +4,9 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    data = {"name": "Dean", "age": 55}
-    context = {"data": data}
-    
+    data = ["Oatmeal", "Grits", "Yogurt", "Cottage Cheese"]
+    context = {"foods": data}
     return render(request,"sintijazzapp/index.html",context)
+
+
+
