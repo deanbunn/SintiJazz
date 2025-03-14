@@ -1,23 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Sinti Jazz</title>
-
-    </head>
-    <body>
-
-            {% if foods %}
-                <ul>
-                    {% for food in foods %}
-                        <li>{{ food }}</li>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-
-    </body>
-
-</html>
-
+{% extends "sintijazzapp/base.html" %}
+{% block content %}
+    {% if foods %}
+        <ul>
+            {% for food in foods %}
+                <li>{{ food }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock content %}
