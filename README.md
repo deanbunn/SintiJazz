@@ -18,15 +18,15 @@ Start Virtual Python Environment
 source ./DarkVenv/bin/activate
 ```
 Stop Virtual Python Environment
-```bash
+```shell
 deactivate
 ```
 Install Django 
-```bash
+```shell
 pip3 install django
 ```
 Update Django
-```bash
+```shell
 pip3 install --upgrade django
 ```
 
