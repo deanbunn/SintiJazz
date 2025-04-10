@@ -10,23 +10,23 @@ Install pip and venv
 sudo apt install python3-pip python3-venv
 ```
 Create Python Virtual Environment
-```bash
+```python
 python3 -m venv DarkVenv
 ```
 Start Virtual Python Environment
-```bash
+```python
 source ./DarkVenv/bin/activate
 ```
 Stop Virtual Python Environment
-```shell
+```python
 deactivate
 ```
 Install Django 
-```shell
+```python
 pip3 install django
 ```
 Update Django
-```shell
+```python
 pip3 install --upgrade django
 ```
 
