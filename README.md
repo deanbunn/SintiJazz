@@ -2,7 +2,6 @@
 
 A Django training project
 
-
 ### Development Environment Setup Commands
 
 Install pip and venv
@@ -10,23 +9,23 @@ Install pip and venv
 sudo apt install python3-pip python3-venv
 ```
 Create Python Virtual Environment
-```python
+```bash
 python3 -m venv DarkVenv
 ```
 Start Virtual Python Environment
-```python
+```bash
 source ./DarkVenv/bin/activate
 ```
 Stop Virtual Python Environment
-```python
+```bash
 deactivate
 ```
 Install Django 
-```python
+```bash
 pip3 install django
 ```
 Update Django
-```python
+```bash
 pip3 install --upgrade django
 ```
 
