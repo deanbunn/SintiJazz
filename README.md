@@ -57,4 +57,9 @@ Make App Migrations
 ```bash
 python manage.py makemigrations sintijazzapp
 ```
+Create Database Super User
+```bash
+python manage.py createsuperuser
+```
+
 
